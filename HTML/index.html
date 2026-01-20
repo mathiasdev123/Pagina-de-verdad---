@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Titulo</title>
+        <link rel="stylesheet" href="../CSS/styles.css">    
+        <link rel="icon" href="../image/icono.png">
+        <meta name="description" content="Descripcion">
+        <meta name="keywords" content="Palabra_clave_1, Palabra_clave_2">
+        <meta name="author" content="Mathias Solorza">
+        <meta name="robots" content="nosnippet">
+        <meta property="og:title" content="Titulo OG">
+        <meta property="og:description" content="Descripcion OG">
+        <meta property="og:image" content="../img/icono.png">
+        <script src="../JavaScript/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1> Encabezado</h1>
+            <nav>
+                <ul>
+                    <li><a href="main_body_of_the_book.html" title="Enlace normal">Enlace</a></li>
+                    <li><a href="main_body_of_the_book.html" target="_blank" title="Enlace que abre otra pestaña">Enlace que abre en otra pestaña</a></li>
+                    <li><a href="#Atajo">Atajo</a></li>
+                    <li><a href="index.html" download>Descargar pagina</a></li>
+                    <li><a href="main_body_of_the_book.html" rel="noopener">Enlace modo seguro</a></li>
+                    <li><a href="main_body_of_the_book.html" rel="noreferrer">Enlace modo seguro 2</a></li>
+                    <li><a href="main_body_of_the_book.html" rel="nofollow">Enlace modo seguro 3</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Subtitulo</h2>
+
+                <h3>Subsubtitulo</h3>
+
+                <h4>Subsubsubtitulo</h4>
+
+                <h5>Subsubsubsubtitulo</h5>
+
+                <h6>Subsubsubsubsubtitulo</h6>
+
+                <p aria-label="Hola, lastima que estes ciego, que Dios te bendiga">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat <br>
+                    omnis nisi corrupti similique accusantium consequuntur rerum dicta <br>
+                    voluptatum natus. Tempore placeat, magni nihil similique voluptatibus <br>
+                    quidem neque ut debitis recusandae.
+                </p>
+
+                <ol>
+                    <li>Elemento 1 de lista ordenada</li>
+                    <li id="Segundo">Elemento 2 de lista ordenada</li>
+                </ol>
+
+                <ul>
+                    <li class="desordenada">Elemento 1 de lista desordenada</li>
+                    <li class="desordenada">Elemento 2 de lista desordenada</li>
+                </ul>
+
+                <picture>
+                    <source srcset="../image/imagen_de_imagen_mejorada.webp" type="image/webp">
+                    <source srcset="../image/imagen_de_imagen_pequeña.png 400w" media="(max-width: 700px) 360px">
+                    <source srcset="../image/imagen_de_imagen_grande.png 1000w" media="(max-width: 700px) 900px">
+                    <img loading="lazy" src="../image/imagen_de_imagen.png" alt="Imagen de imagen de imagen">
+                </picture>
+
+                <form>
+                    <fieldset>
+                        <legend>Texto y color</legend>
+                        <label for="Texto">Texto:</label>
+                        <input type="text" required name="Texto" placeholder="Texto" id="Texto"> <br>
+                        <label for="Color">Color:</label>
+                        <input type="color" required name="Color" id="Color"> <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Contraseña y Email</legend>
+                        <label for="Contraseña">Contraseña:</label>
+                        <input type="password" required name="Contraseña" placeholder="Contraseña" id="Contraseña"> <br>
+                        <label for="Email">Email:</label>
+                        <input type="email" required name="Email" placeholder="email@gmail.com" id="Email"> <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Otros</legend>
+                        <label for="Caja">Caja:</label>
+                        <input type="checkbox" required name="Caja" id="Caja"> <br>
+                        <label for="Radio">Radio:</label>
+                        <input type="radio" required name="Radio" id="Radio"> <br>
+                        <label for="Archivo">Archivo:</label>
+                        <input type="file" required name="Archivo" id="Archivo"> <br>
+                        <label for="Fecha">Fecha:</label>
+                        <input type="date" required name="Fecha" id="Fecha"> <br>
+                    </fieldset>
+                    <label for="MasTexto">Mas texto:</label>
+                    <textarea rows="100" id="Mastexto"></textarea>
+                    <label for="Opciones">Opciones:</label>
+                    <select name="Opciones" id="Opciones">
+                        <option value="Opcion1">Opcion 1</option>
+                        <option value="Opcion2">Opcion 2</option>
+                    </select> <br>
+                    <label for="Opciones2">Mas opciones:</label>
+                    <input list="Opciones2">
+                    <datalist id="Opciones2">
+                        <option value="Opcion1">Opcion 1</option>
+                        <option value="Opcion2">Opcion 2</option>
+                    </datalist>
+                    <button>Boton</button> <br>
+                    <label for="Enviar">Enviar:</label>
+                    <input type="submit" required name="Entregar" id="Enviar"> <br>
+                </form>
+            </section>
+        </main>
+
+        <aside>
+            <section>
+                <div id="EvitarCSSPeeper">
+                    <p>Contenido</p>
+                </div>    
+                <!--Comentario-->    
+                <details>
+                    <summary>Detalles</summary>
+                    <ul>
+                        <li>Detalle 1</li>
+                        <li>Detalle 2</li>
+                    </ul>
+                </details>    
+                <p id="Atajo">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima dis<br>
+                    tinctio totam assumenda dolor earum quasi similique, aliquid offici<br>
+                    is sed dolorem aperiam corrupti nemo, itaque quibusdam vel obcaecat<br>
+                    i consequatur, ipsum rerum!
+                </p>
+
+                <table>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                    <tr>
+                        <td>Fila 1 Columna 1</td>
+                        <td>Fila 1 Columna 2</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 2 Columna 1</td>
+                        <td>Fila 2 Columna 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 3 Columna 1 y 2</td>
+                    </tr>
+                </table>
+
+                <video controls src="../video/video.mp4">No se pudo cargar el video, vuelve a intentar</video> <br>
+
+                <audio controls src="../audio/audio.mp3">se pudo cargar el audio, vuelve a intentar</audio>    
+                <!--No hay que usar las etiquetas: font, center, blink, big, strike-->
+                <div id="flexbox">
+                    <div class="flexitems">
+                        Item flexible
+                    </div>
+                    <div class="flexitems">
+                        Item flexible
+                    </div>
+                    <div class="flexitems">
+                        Item flexible
+                    </div>
+                </div>
+                <div id="caja_adaptable">
+                    Caja adaptable que tiene un Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut amet distinctio! Tempore labore impedit error aut repudiandae repellat praesentium porro consequatur eius doloribus! Culpa nulla id suscipit! Soluta, inventore?
+                </div>
+
+                <div id="caja_responsive">
+                    Caja responsive que tiene un Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio, facilis odio dolores dolorem animi officia modi delectus, maiores id magni aut fugiat temporibus asperiores nihil ratione totam quos fugit!
+                </div>
+
+                <div id="gridbox">
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                    <div class="griditems">
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                        <div class="subgriditems">
+                            Item subgrid
+                        </div>
+                    </div>
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                    <div class="griditems">
+                        Item grid
+                    </div>
+                </div>
+                <div id="contenedor-caja-transicionada">
+                    <div id="caja-transicionada">
+
+                    </div>
+                </div> <br>
+                <div id="contenedor-caja-animada">
+                    <div id="caja-animada">
+
+                    </div>
+                </div>
+
+                <p id="texto-animado">Texto animado</p>
+
+                <div id="caja-avanzada">
+                    Caja con funciones avanzadas
+                </div>
+            </section>
+        </aside>
+    </body>
+</html>
