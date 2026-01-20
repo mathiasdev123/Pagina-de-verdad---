@@ -207,3 +207,11 @@ while (true) {
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }
+
+// for in
+
+let array_forin = [1, 2, 3, 4, 5]
+
+for (contador_forin in array_forin) {
+    console.log(contador_forin)
+}
