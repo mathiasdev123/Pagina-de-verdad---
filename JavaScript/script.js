@@ -210,8 +210,58 @@ for (let i = 0; i < 10; i++) {
 
 // for in
 
-let array_forin = [1, 2, 3, 4, 5]
+let array_forin = [1, 2, 3, 4, 5];
 
 for (contador_forin in array_forin) {
-    console.log(contador_forin)
+    console.log(contador_forin);
 }
+
+// for of
+
+let array_forof = [1, 2, 3, 4, 5];
+
+for (contador_forof of array_forof) {
+    console.log(contador_forof);
+}
+
+// label
+
+let array_label = [1, 2, 3, 4, 5];
+
+let array_label_2 = [1, 2, 3, 4, array_label, 5];
+
+etiquetaparabucle:
+for (contador_label_2 of array_label_2) {
+    console.log(contador_label_2);
+
+    if (contador_label_2 == 4) {
+        for (contador_label of array_label) {
+            console.log(contador_label);
+            break etiquetaparabucle;
+        }
+    }
+}
+
+// funciones
+
+function texto(){
+    console.log("Texto");
+}
+
+texto()
+
+// return
+
+function funcion_con_return(){
+    return "Texto";
+}
+
+console.log(funcion_con_return());
+
+// parametros
+
+function funcion_con_parametro(nombre){
+    alert(`Hola, ${nombre}`);
+}
+
+funcion_con_parametro(prompt("¿Cual es tu nombre?"));
