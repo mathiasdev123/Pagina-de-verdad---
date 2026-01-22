@@ -265,3 +265,10 @@ function funcion_con_parametro(nombre){
 }
 
 funcion_con_parametro(prompt("¿Cual es tu nombre?"));
+
+// funciones flecha
+
+const funcion_flecha = () => console.log("texto")
+
+
+funcion_flecha()
