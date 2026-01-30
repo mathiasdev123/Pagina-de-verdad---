@@ -12,146 +12,145 @@ alert("Tu respuesta fue: " + pregunta);
 
 // Operadores de asignacion
 
-let variable_asignada = 1;
+let variableAsignada = 1;
 
-console.log(variable_asignada);
+console.log(variableAsignada);
 
-variable_asignada += 2;
+variableAsignada += 2;
 
-console.log(variable_asignada);
+console.log(variableAsignada);
 
-variable_asignada -= 3;
+variableAsignada -= 3;
 
-console.log(variable_asignada);
+console.log(variableAsignada);
 
-variable_asignada *= 4;
+variableAsignada *= 4;
 
-console.log(variable_asignada);
+console.log(variableAsignada);
 
-variable_asignada /= 5;
+variableAsignada /= 5;
 
-console.log(variable_asignada);
+console.log(variableAsignada);
 
-variable_asignada **= 6;
+variableAsignada **= 6;
 
-console.log(variable_asignada);
+console.log(variableAsignada);
 
-variable_asignada %= 7;
+variableAsignada %= 7;
 
-console.log(variable_asignada);
+console.log(variableAsignada);
 
 // Operadores aritmeticos
 
-let variable_calculada_uno = 8;
+let variableCalculadaUno = 8;
 
-let variable_calculada_dos = 9;
+let variableCalculadaDos = 9;
 
-console.log(variable_calculada_dos + variable_calculada_dos)
+console.log(variableCalculadaDos + variableCalculadaDos);
 
-console.log(variable_calculada_dos - variable_calculada_dos)
+console.log(variableCalculadaDos - variableCalculadaDos);
 
-console.log(variable_calculada_dos * variable_calculada_dos)
+console.log(variableCalculadaDos * variableCalculadaDos);
 
-console.log(variable_calculada_dos / variable_calculada_dos)
+console.log(variableCalculadaDos / variableCalculadaDos);
 
-console.log(variable_calculada_dos ** variable_calculada_dos)
+console.log(variableCalculadaDos ** variableCalculadaDos);
 
-console.log(variable_calculada_dos % variable_calculada_dos)
+console.log(variableCalculadaDos % variableCalculadaDos);
 
-console.log(++variable_calculada_uno)
+console.log(++variableCalculadaUno);
 
-console.log(--variable_calculada_uno)
+console.log(--variableCalculadaUno);
 
-console.log(variable_calculada_uno++)
+console.log(variableCalculadaUno++);
 
-console.log(variable_calculada_uno--)
+console.log(variableCalculadaUno--);
 
-console.log(-variable_calculada_uno)
+console.log(-variableCalculadaUno);
 
 // Concatenacion
 
-let variable_concatenada_uno = "Tex";
+let variableConcatenadaUno = "Tex";
 
-let variable_concatenada_dos = "to";
+let variableConcatenadaDos = "to";
 
-console.log(`${variable_concatenada_uno}${variable_concatenada_dos}`);
+console.log(`${variableConcatenadaUno}${variableConcatenadaDos}`);
 
-let variable_concatenada_numerica_uno = "1";
+let variableConcatenadaNumericaUno = "1";
 
-let variable_concatenada_numerica_dos = 0;
+let variableConcatenadaNumericaDos = 0;
 
-console.log(`${variable_concatenada_numerica_uno}${variable_concatenada_numerica_dos}`);
+console.log(`${variableConcatenadaNumericaUno}${variableConcatenadaNumericaDos}`);
 
 // Operadores de comparacion
 
-let variable_comparada_uno = 11;
+let variableComparadaUno = 11;
 
-let variable_comparada_dos = 12;
+let variableComparadaDos = 12;
 
-console.log(variable_comparada_uno == variable_comparada_dos);
+console.log(variableComparadaUno == variableComparadaDos);
 
-console.log(variable_comparada_uno === variable_comparada_dos);
+console.log(variableComparadaUno === variableComparadaDos);
 
-console.log(variable_comparada_uno != variable_comparada_dos);
+console.log(variableComparadaUno != variableComparadaDos);
 
-console.log(variable_comparada_uno !== variable_comparada_dos);
+console.log(variableComparadaUno !== variableComparadaDos);
 
-console.log(variable_comparada_uno > variable_comparada_dos);
+console.log(variableComparadaUno > variableComparadaDos);
 
-console.log(variable_comparada_uno < variable_comparada_dos);
+console.log(variableComparadaUno < variableComparadaDos);
 
-console.log(variable_comparada_uno >= variable_comparada_dos);
+console.log(variableComparadaUno >= variableComparadaDos);
 
-console.log(variable_comparada_uno <= variable_comparada_dos);
+console.log(variableComparadaUno <= variableComparadaDos);
 
 // Operadores logicos
 
-let variable_logica_uno = true;
+let variableLogicaUno = true;
 
-let variable_logica_dos = false;
+let variableLogicaDos = false;
 
-console.log(variable_logica_uno && variable_logica_dos);
+console.log(variableLogicaUno && variableLogicaDos);
 
-console.log(variable_logica_uno || variable_logica_dos);
+console.log(variableLogicaUno || variableLogicaDos);
 
-console.log(!variable_logica_uno);
+console.log(!variableLogicaUno);
 
 // Condicionales
 
-let conditionalvariable = prompt("Write a number:");
+let conditionalVariable = prompt("Write a number:");
 
-if (conditionalvariable >= 10000) {
+if (conditionalVariable >= 10000) {
     alert("That's a very large number.");
 }
-else if (conditionalvariable >= 1000 && conditionalvariable < 10000) {
+else if (conditionalVariable >= 1000 && conditionalVariable < 10000) {
     alert("It's a big number.");
 }
-else if (conditionalvariable >= 100 && conditionalvariable < 1000) {
+else if (conditionalVariable >= 100 && conditionalVariable < 1000) {
     alert("It is a medium number.");
 }
-
-else if (conditionalvariable >= 10 && conditionalvariable < 100) {
+else if (conditionalVariable >= 10 && conditionalVariable < 100) {
     alert("It's a small number");
 }
 else {
-    alert("It's a very small number.")
+    alert("It's a very small number.");
 }
 
 // Arrays
 
-let array = ["Element 0", "Element 1", 1, 1.0, true]
+let array = ["Element 0", "Element 1", 1, 1.0, true];
 
-console.log(array)
+console.log(array);
 
-console.log(array[0])
+console.log(array[0]);
 
-console.log(array[1])
+console.log(array[1]);
 
-console.log(array[2])
+console.log(array[2]);
 
-console.log(array[3])
+console.log(array[3]);
 
-console.log(array[-1])
+console.log(array[-1]);
 
 // Arrays asociativos
 
@@ -161,7 +160,7 @@ let pc = {
     gpu: "Intel IRISXe Graphics",
     ram: "8GB DDR4",
     almacenamiento: "512GB SSD",
-    sistemaoperativo: "Windows 11 home single language",
+    sistemaOperativo: "Windows 11 home single language",
     pantalla: "15.6 pulgadas FHD",
     precio: 1200
 };
@@ -183,21 +182,21 @@ while (contador < 10) {
 
 // do while
 
-let contador_dowhile = 0;
+let contadorDoWhile = 0;
 
 do {
-    console.log(contador_dowhile);
-    contador_dowhile++;
-} while (contador_dowhile < 10);
+    console.log(contadorDoWhile);
+    contadorDoWhile++;
+} while (contadorDoWhile < 10);
 
 // break
 
-let contador_break = 0;
+let contadorBreak = 0;
 
 while (true) {
-    console.log(contador_break);
-    contador_break++;
-    if (contador_break >= 10) {
+    console.log(contadorBreak);
+    contadorBreak++;
+    if (contadorBreak >= 10) {
         break;
     }
 }
@@ -210,34 +209,34 @@ for (let i = 0; i < 10; i++) {
 
 // for in
 
-let array_forin = [1, 2, 3, 4, 5];
+let arrayForIn = [1, 2, 3, 4, 5];
 
-for (contador_forin in array_forin) {
-    console.log(contador_forin);
+for (let contadorForIn in arrayForIn) {
+    console.log(contadorForIn);
 }
 
 // for of
 
-let array_forof = [1, 2, 3, 4, 5];
+let arrayForOf = [1, 2, 3, 4, 5];
 
-for (contador_forof of array_forof) {
-    console.log(contador_forof);
+for (let contadorForOf of arrayForOf) {
+    console.log(contadorForOf);
 }
 
 // label
 
-let array_label = [1, 2, 3, 4, 5];
+let arrayLabel = [1, 2, 3, 4, 5];
 
-let array_label_2 = [1, 2, 3, 4, array_label, 5];
+let arrayLabel2 = [1, 2, 3, 4, arrayLabel, 5];
 
-etiquetaparabucle:
-for (contador_label_2 of array_label_2) {
-    console.log(contador_label_2);
+etiquetaParaBucle:
+for (let contadorLabel2 of arrayLabel2) {
+    console.log(contadorLabel2);
 
-    if (contador_label_2 == 4) {
-        for (contador_label of array_label) {
-            console.log(contador_label);
-            break etiquetaparabucle;
+    if (contadorLabel2 == 4) {
+        for (let contadorLabel of arrayLabel) {
+            console.log(contadorLabel);
+            break etiquetaParaBucle;
         }
     }
 }
@@ -248,27 +247,98 @@ function texto(){
     console.log("Texto");
 }
 
-texto()
+texto();
 
 // return
 
-function funcion_con_return(){
+function funcionConReturn(){
     return "Texto";
 }
 
-console.log(funcion_con_return());
+console.log(funcionConReturn());
 
 // parametros
 
-function funcion_con_parametro(nombre){
+function funcionConParametro(nombre){
     alert(`Hola, ${nombre}`);
 }
 
-funcion_con_parametro(prompt("¿Cual es tu nombre?"));
+funcionConParametro(prompt("¿Cual es tu nombre?"));
 
 // funciones flecha
 
-const funcion_flecha = () => console.log("texto")
+const funcionFlecha = () => console.log("texto");
 
+funcionFlecha();
 
-funcion_flecha()
+// POO
+
+class Clase{
+    constructor(atributo){
+        this.atbt = atributo;
+    }
+
+    metodo() {
+        console.log("texto");
+    }
+}
+
+const objeto = new Clase("atributo");
+
+objeto.metodo();
+
+class Subclase extends Clase{
+    constructor(atributo, otroAtributo){
+        super(atributo);
+        this.otatbt = otroAtributo;
+        this.atbtn = null;
+    }
+    static metodoEstatico(){
+        console.log("Texto");
+    }
+    set cambiarAtbtn(newAtributo){
+        this.atbtn = newAtributo;
+    }
+    get obtenerAtbtn(){
+        return this.atbtn
+    }
+}
+
+const objetoDeSubclase = new Subclase("atributo", "otro atributo");
+
+Subclase.metodoEstatico();
+
+objetoDeSubclase.cambiarAtbtn = "nuevo atributo";
+
+console.log(objetoDeSubclase.atbtn);
+console.log(objetoDeSubclase.obtenerAtbtn);
+
+// concat
+
+let cadenaConcat = "tex";
+
+console.log(cadenaConcat.concat("to"));
+
+// startstwith
+
+let cadenastarstwith = "texto"
+
+console.log(cadenastartswith.startsWith("tex"))
+
+// endswith
+
+let cadenaEndsWith = "texto"
+
+console.log(cadenaEndsWith.endsWith("to"))
+
+// includes
+
+let cadenaIncludes = "texto"
+
+console.log(cadenaIncludes.includes("tex"))
+
+// indexof
+
+let cadenaIndexOf = "texto"
+
+console.log(cadenaIndexOf.indexOf("t"))
