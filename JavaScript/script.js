@@ -1,6 +1,6 @@
 // Variables
 
-let variable = "Texto";
+let variable = "texto";
 
 console.log(variable);
 
@@ -70,7 +70,7 @@ console.log(-variableCalculadaUno);
 
 // Concatenacion
 
-let variableConcatenadaUno = "Tex";
+let variableConcatenadaUno = "tex";
 
 let variableConcatenadaDos = "to";
 
@@ -244,7 +244,7 @@ for (let contadorLabel2 of arrayLabel2) {
 // funciones
 
 function texto(){
-    console.log("Texto");
+    console.log("texto");
 }
 
 texto();
@@ -252,7 +252,7 @@ texto();
 // return
 
 function funcionConReturn(){
-    return "Texto";
+    return "texto";
 }
 
 console.log(funcionConReturn());
@@ -321,24 +321,48 @@ console.log(cadenaConcat.concat("to"));
 
 // startstwith
 
-let cadenastarstwith = "texto"
+let cadenastartswith = "texto";
 
-console.log(cadenastartswith.startsWith("tex"))
+console.log(cadenastartswith.startsWith("tex"));
 
 // endswith
 
-let cadenaEndsWith = "texto"
+let cadenaEndsWith = "texto";
 
-console.log(cadenaEndsWith.endsWith("to"))
+console.log(cadenaEndsWith.endsWith("to"));
 
 // includes
 
-let cadenaIncludes = "texto"
+let cadenaIncludes = "texto";
 
-console.log(cadenaIncludes.includes("tex"))
+console.log(cadenaIncludes.includes("tex"));
 
 // indexof
 
-let cadenaIndexOf = "texto"
+let cadenaIndexOf = "texto";
 
-console.log(cadenaIndexOf.indexOf("t"))
+console.log(cadenaIndexOf.indexOf("t"));
+
+// lastindexof
+
+let cadenaLastIndexOf = "texto";
+
+console.log(cadenaLastIndexOf.lastIndexOf("t"));
+
+// padstart
+
+let cadenaPadStart = "to";
+
+console.log(cadenaPadStart.padStart(5, "tex"));
+
+// padend
+
+let cadenaPadEnd = "tex";
+
+console.log(cadenaPadEnd.padEnd(5, "to"));
+
+// repeat
+
+let cadenaRepeat = "texto";
+
+console.log(cadenaRepeat.repeat(2));
