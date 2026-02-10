@@ -366,3 +366,51 @@ console.log(cadenaPadEnd.padEnd(5, "to"));
 let cadenaRepeat = "texto";
 
 console.log(cadenaRepeat.repeat(2));
+
+// split
+
+let cadenaSplit = "t,e,x,t,o";
+
+console.log(cadenaSplit.split(","));
+
+// substring
+
+let cadenaSubstring = "textoto";
+
+console.log(cadenaSubstring.substring(0, 5));
+
+// tolowercase
+
+let cadenaToLowerCase = "TEXTO";
+
+console.log(cadenaToLowerCase.toLowerCase());
+
+// touppercase
+
+let cadenaToUpperCase = "TEXTO";
+
+console.log(cadenaToUpperCase.toUpperCase());
+
+// tostring
+
+let numeroToString = 1;
+
+console.log(numeroToString.toString())
+
+// trim
+
+let cadenaTrim = " Texto ";
+
+console.log(cadenaTrim.trim());
+
+// trimstart
+
+let cadenaTrimStart = " Texto ";
+
+console.log(cadenaTrimStart.trimStart());
+
+// trimend
+
+let cadenaTrimEnd = " Texto ";
+
+console.log(cadenaTrimEnd.trimEnd());
