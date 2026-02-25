@@ -524,3 +524,23 @@ console.log(Math.PI);
 // SQRT1_2
 
 console.log(Math.SQRT1_2);
+
+// E
+
+console.log(Math.E)
+
+// LN2
+
+console.log(Math.LN2)
+
+// LN10
+
+console.log(Math.LN10)
+
+// LOG2E
+
+console.log(Math.LOG2E)
+
+// LOG10E
+
+console.log(Math.LOG10E)
