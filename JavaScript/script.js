@@ -548,3 +548,61 @@ console.log(Math.LOG10E)
 // assert
 
 console.assert(1 == 1);
+
+// error
+
+console.error("Error inofensivo");
+
+// info
+
+console.info("Texto");
+
+// table
+
+console.table([1, 2, 3, 4, 5]);
+
+// warn
+
+console.warn("Advertencia, algo no esta bien. Nah mentira, esto es un simulacro");
+
+// dir
+
+console.dir([1, 2, 3, 4, 5]);
+
+// count
+
+console.count();
+console.count();
+console.count();
+console.count();
+console.count();
+
+console.countReset();
+
+// group
+
+console.group("Grupo 1");
+
+console.log("Texto del grupo 1");
+
+console.groupEnd();
+
+console.group("Grupo 2");
+
+console.log("Texto del grupo 2");
+
+console.groupEnd();
+
+// groupcollapsed
+
+console.groupCollapsed("Grupo 1 colapsado");
+
+console.log("Texto del grupo 1");
+
+console.groupEnd();
+
+console.groupCollapsed("Grupo 2 colapsado");
+
+console.log("Texto del grupo 2");
+
+console.groupEnd();
