@@ -414,3 +414,113 @@ console.log(cadenaTrimStart.trimStart());
 let cadenaTrimEnd = " Texto ";
 
 console.log(cadenaTrimEnd.trimEnd());
+
+// pop
+
+let arrayPop = [1, 2, 3, 4, 5];
+
+console.log(arrayPop.pop());
+
+// shift
+
+let arrayShift = [1, 2, 3, 4, 5];
+
+console.log(arrayShift.shift());
+
+// push
+
+let arrayPush = [1, 2, 3, 4];
+
+console.log(arrayPush.push(5))
+
+// reverse
+
+let arrayReverse = [5, 4, 3, 2, 1];
+
+console.log(arrayReverse.reverse());
+
+// unshift
+
+let arrayunShift = [1, 2, 3, 4, 5];
+
+console.log(arrayunShift.unshift(0));
+
+// sort
+
+let arraySort = [3, 1, 2, 5, 4];
+
+console.log(arraySort.sort());
+
+// splice
+
+let arraySplice = [1, 2, 3, 4, 5];
+
+console.log(array)
+
+// join
+
+let arrayJoin = [1, 2, 3, 4, 5];
+
+console.log(arrayJoin.join());
+
+// slice
+
+let arraySlice = [1, 2, 3, 4, 5];
+
+console.log(arraySlice.slice(0, 3));
+
+// filter
+
+let arrayFilter = [1, 2, 3, 4, 5];
+
+arrayFilter.filter(variableFilter => console.log(variableFilter));
+
+// foreach
+
+let arrayForEach = [1, 2, 3, 4, 5];
+
+arrayForEach.forEach(variableForEach => console.log(variableForEach));
+
+// sqrt
+
+console.log(Math.sqrt(5));
+
+// cbrt
+
+console.log(Math.cbrt(5));
+
+// max
+
+console.log(Math.max(3, 1, 2, 5, 4));
+
+// min
+
+console.log(Math.min(3, 1, 2, 5, 4));
+
+// random
+
+console.log(Math.random());
+
+// round
+
+console.log(Math.round(2.5));
+
+// floor
+
+console.log(Math.floor(2.5));
+
+// fround
+
+console.log(Math.fround(2.5));
+
+// trunc
+
+console.log(Math.trunc(2.5));
+
+// PI
+
+console.log(Math.PI);
+
+// SQRT1_2
+
+console.log(Math.SQRT1_2);
