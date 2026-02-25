@@ -544,3 +544,7 @@ console.log(Math.LOG2E)
 // LOG10E
 
 console.log(Math.LOG10E)
+
+// assert
+
+console.assert(1 == 1);
