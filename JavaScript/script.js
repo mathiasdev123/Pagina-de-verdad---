@@ -606,3 +606,35 @@ console.groupCollapsed("Grupo 2 colapsado");
 console.log("Texto del grupo 2");
 
 console.groupEnd();
+
+// time
+
+console.time();
+
+function funcionConTime(params) {
+	console.timeLog();
+}
+
+funcionConTime();
+funcionConTime();
+funcionConTime();
+funcionConTime();
+funcionConTime();
+
+console.timeEnd();
+
+// Como poner estilo al texto
+
+console.log("%cTexto", "color: red; font-size: 20px; font-weight: bold; background-color: yellow; padding: 5px; border: 2px solid black; border-radius: 5px;");
+
+// getelementbyid
+
+let parrafo = document.getElementById("parrafo");
+
+console.log(parrafo);
+
+// getelementsbytagname
+
+let parrafos = document.getElementsByTagName("p");
+
+console.log(parrafos);
